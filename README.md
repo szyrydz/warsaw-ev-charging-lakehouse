@@ -18,21 +18,18 @@ An end-to-end data engineering project analyzing electric vehicle (EV) charging 
 ## 🏗️ Project Architecture (Medallion Architecture)
 
 [Raw CSVs]
-│
-▼
-🥉 BRONZE LAYER (Delta Lake)
-└── 4 automated ingestion pipelines: sessions, customers, stations, districts + audit metadata
-│
-▼
-🥈 SILVER LAYER (Data Quality & Feature Engineering)
-└── Power & battery capacity validation (kWh <= battery capacity)
-└── Pricing & billing consistency checks
-└── Geospatial validation (Warsaw municipal boundary filtering)
-│
-▼
+
+🥉 BRONZE LAYER (Delta Lake): 
+ - 4 automated ingestion pipelines: sessions, customers, stations, districts + audit metadata
+
+🥈 SILVER LAYER (Data Quality & Feature Engineering):
+ - Power & battery capacity validation (kWh <= battery capacity)
+ - Pricing & billing consistency checks
+ - Geospatial validation (Warsaw municipal boundary filtering)
+   
 🥇 GOLD LAYER (Business & Electrical Grid KPIs)
-└── gold_hourly_grid_demand (daily power demand profile & peak analysis)
-└── gold_district_operator_summary (district ranking & operator market share)
+  - gold_hourly_grid_demand (daily power demand profile & peak analysis)
+  - gold_district_operator_summary (district ranking & operator market share)
 
 ---
 
@@ -82,21 +79,18 @@ Projekt inżynierii danych analizujący infrastrukturę ładowania pojazdów ele
 ## 🏗️ Architektura Projektu (Medallion Architecture)
 
 [Raw CSVs]
-│
-▼
+
 🥉 BRONZE LAYER (Delta Lake)
-└── 4 zautomatyzowane tabele: sesje, klienci, stacje, dzielnice + metadane audytowe
-│
-▼
+  - 4 zautomatyzowane tabele: sesje, klienci, stacje, dzielnice + metadane audytowe
+    
 🥈 SILVER LAYER (Data Quality & Feature Engineering)
-└── Walidacja mocy i baterii (kWh <= pojemność baterii)
-└── Weryfikacja cenników
-└── Walidacja lokalizacji (granice Warszawy)
-│
-▼
+  - Walidacja mocy i baterii (kWh <= pojemność baterii)
+  - Weryfikacja cenników
+  - Walidacja lokalizacji (granice Warszawy)
+    
 🥇 GOLD LAYER (Business & Electrical Grid KPIs)
-└── gold_hourly_grid_demand (profil dobowy zapotrzebowania mocy)
-└── gold_district_operator_summary (ranking dzielnic i operatorów)
+  - gold_hourly_grid_demand (profil dobowy zapotrzebowania mocy)
+  - gold_district_operator_summary (ranking dzielnic i operatorów)
 
 ---
 
