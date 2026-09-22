@@ -52,7 +52,6 @@ Top-grossing EV charging markets in Warsaw are concentrated in suburban, affluen
 1. Download the `warsaw_ev_lakehouse.ipynb` notebook from this repository.
 2. Import the notebook into your **Databricks Community Edition** workspace.
 3. Download the [*Warsaw EV Charging*](https://www.kaggle.com/datasets/alperenmyung/warsaw-ev-charging?select=charging_stations.csv) dataset from Kaggle and upload the CSV files to your workspace directory.
-4. Attach a cluster and execute the notebook cells sequentially.
 
 
 
@@ -99,12 +98,12 @@ Projekt inżynierii danych analizujący infrastrukturę ładowania pojazdów ele
 ### 1. Profil Dobowy Obciążenia Sieci Elektroenergetycznej (Grid Load)
 Analiza dobowego zapotrzebowania na energię wykazała gwałtowny **szczyt poranny o godzinie 08:00** związany z dojazdami do biurowców w Warszawie.
 
-![Profil Dobowy](hourly_grid_load.png)
+![Profil Dobowy](hourly_grid_demand_visualtization.png)
 
 ### 2. Przychody Dzielnicy i Operatora
 Liderami pod względem obrotów na rynku EV w Warszawie są dzielnice o gęstej zabudowie jednorodzinnej i nowo powstałych osiedlach: **Ursynów (>2.1 mln PLN)**, **Wesoła (~1.9 mln PLN)** oraz **Wilanów (~1.4 mln PLN)**.
 
-![Przychody Dzielnic](district_revenue.png)
+![Przychody Dzielnic](total_revenue_visualization.png)
 
 ---
 
