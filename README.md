@@ -41,7 +41,7 @@ Daily power demand analysis shows a sharp **morning peak starting at 08:00 AM**,
 ![Daily Load Profile](hourly_grid_demand_visualtization.png)
 
 ### 2. Revenue by District and Operator
-Top-grossing EV charging markets in Warsaw are concentrated in suburban, affluent, and high-density residential districts: **Ursynów (> 2.1M PLN)**, **Wesoła (~ 1.9M PLN)**, and **Wilanów (~ 1.4M PLN)**.
+Top-grossing EV charging markets in Warsaw are concentrated in suburban and high-density residential districts: **Ursynów (> 2.1M PLN)**, **Wesoła (~ 1.9M PLN)**, and **Wilanów (~ 1.4M PLN)**.
 
 ![District Revenue](total_revenue_visualization.png)
 
