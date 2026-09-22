@@ -41,12 +41,12 @@ An end-to-end data engineering project analyzing electric vehicle (EV) charging 
 ### 1. Daily Electrical Grid Load Profile
 Daily power demand analysis shows a sharp **morning peak starting at 08:00 AM**, driven by morning commuters arriving at Warsaw office districts and plugging in vehicles simultaneously.
 
-![Daily Load Profile](hourly_grid_load_visualization.png)
+![Daily Load Profile](hourly_grid_demand_visualtization.png)
 
 ### 2. Revenue by District and Operator
 Top-grossing EV charging markets in Warsaw are concentrated in suburban, affluent, and high-density residential districts: **Ursynów (> 2.1M PLN)**, **Wesoła (~ 1.9M PLN)**, and **Wilanów (~ 1.4M PLN)**.
 
-![District Revenue](district_revenue_visualization.png)
+![District Revenue](total_revenue_visualization.png)
 
 ---
 
